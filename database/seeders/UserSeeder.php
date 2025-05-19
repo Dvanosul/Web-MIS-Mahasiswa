@@ -24,21 +24,21 @@ class UserSeeder extends Seeder
 
         $admin->assignRole('admin');
 
-    //     $Mahasiswa = Mahasiswa::create([
-    //         'name' => 'mahasiswa',
-    //         'email' => 'mahasiswa@student.pens.ac.id',
-    //         'password' => bcrypt('mahasiswa123'),
-    //    ] );
+        $Mahasiswa = User::create([
+            'name' => 'mahasiswa',
+            'email' => 'mahasiswa@student.pens.ac.id',
+            'password' => bcrypt('mahasiswa123'),
+       ] );
 
-    //     $Mahasiswa->assignRole('mahasiswa');
+        $Mahasiswa->assignRole('mahasiswa');
 
-    //     $dosen = Dosen::create([
-    //         'name' => 'dosen',
-    //         'email' => 'dosen@dosen.pens.ac.id',
-    //         'password' => bcrypt('dosen123'),
-    //    ] );
+        $dosen = User::create([
+            'name' => 'dosen',
+            'email' => 'dosen@dosen.pens.ac.id',
+            'password' => bcrypt('dosen123'),
+       ] );
 
-    //     $dosen->assignRole('dosen');
+        $dosen->assignRole('dosen');
 
 
        
