@@ -5,6 +5,9 @@ namespace Database\Seeders;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Admin;
+use App\Models\Dosen;
+use App\Models\Mahasiswa;
 
 class UserSeeder extends Seeder
 {
